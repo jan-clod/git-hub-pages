@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/git-hub-pages/static/css/main.073c9b0a.css",
-    "main.js": "/git-hub-pages/static/js/main.966458ce.js",
-    "static/js/787.76cc900f.chunk.js": "/git-hub-pages/static/js/787.76cc900f.chunk.js",
-    "static/media/logo.svg": "/git-hub-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/git-hub-pages/static/css/main.d780d2b8.chunk.css",
+    "main.js": "/git-hub-pages/static/js/main.118ecfd8.chunk.js",
+    "main.js.map": "/git-hub-pages/static/js/main.118ecfd8.chunk.js.map",
+    "runtime-main.js": "/git-hub-pages/static/js/runtime-main.cadb02a7.js",
+    "runtime-main.js.map": "/git-hub-pages/static/js/runtime-main.cadb02a7.js.map",
+    "static/js/2.83ec6f1e.chunk.js": "/git-hub-pages/static/js/2.83ec6f1e.chunk.js",
+    "static/js/2.83ec6f1e.chunk.js.map": "/git-hub-pages/static/js/2.83ec6f1e.chunk.js.map",
     "index.html": "/git-hub-pages/index.html",
-    "main.073c9b0a.css.map": "/git-hub-pages/static/css/main.073c9b0a.css.map",
-    "main.966458ce.js.map": "/git-hub-pages/static/js/main.966458ce.js.map",
-    "787.76cc900f.chunk.js.map": "/git-hub-pages/static/js/787.76cc900f.chunk.js.map"
+    "precache-manifest.38ffd37611256fdabca06cfa4e636024.js": "/git-hub-pages/precache-manifest.38ffd37611256fdabca06cfa4e636024.js",
+    "service-worker.js": "/git-hub-pages/service-worker.js",
+    "static/css/main.d780d2b8.chunk.css.map": "/git-hub-pages/static/css/main.d780d2b8.chunk.css.map",
+    "static/js/2.83ec6f1e.chunk.js.LICENSE.txt": "/git-hub-pages/static/js/2.83ec6f1e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.966458ce.js"
+    "static/js/runtime-main.cadb02a7.js",
+    "static/js/2.83ec6f1e.chunk.js",
+    "static/css/main.d780d2b8.chunk.css",
+    "static/js/main.118ecfd8.chunk.js"
   ]
 }
