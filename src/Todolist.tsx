@@ -4,6 +4,7 @@ import React, { ChangeEvent } from 'react';
 import { AddItemForm } from './AddItemForm';
 import { FilterValuesType } from './App';
 import { EditableSpan } from './EditableSpan';
+import ClearIcon from '@mui/icons-material/Clear';
 
 export type TaskType = {
     id: string
@@ -62,7 +63,9 @@ export function Todolist(props: PropsType) {
                             title={t.title}
                             onChange={onChangeTitleHandler}
                         />
-                        <button onClick={onClickHandler}>x</button>
+                        <IconButton onClick={onClickHandler}>
+                            <ClearIcon />
+                        </IconButton>
                     </p>
                 })
             }

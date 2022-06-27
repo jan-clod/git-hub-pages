@@ -8,12 +8,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 export type FilterValuesType = "all" | "active" | "completed";
 
-type todolistsType = {
+export type todolistsType = {
     id: string
     title: string
     filtered: FilterValuesType
 }
-type tasksStateType = {
+export type tasksStateType = {
     [key: string]: Array<TaskType>
 }
 function App() {
@@ -43,8 +43,8 @@ function App() {
     });
     function removeTask(todolistID: string, taskiId: string) {
         debugger
-        setTasks({ ...tasks, [todolistID]: tasks[todolistID].filter(t => t.id !== taskiId) })
-    }  // наш весь массив, [переназначаем содержимое], id2.[id2].filter...  
+        setTasks({ ...tasks, [todolistID]: tasks[todolistID].filter(t => t.id !== taskiId) })// наш весь массив, [переназначаем содержимое], id2.[id2].filter...  
+    }  
     function addTask(todolistID: string, title: string) {
         debugger
         let newTask = { id: v1(), title: title, isDone: false };
